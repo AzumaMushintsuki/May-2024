@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hover</title>
+    <style>
+        .main{
+            margin: 0;
+            height: 300px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: peachpuff;
+            flex-wrap: wrap;
+        }
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            transition: 1s;
+        }
+        .main div:hover{
+            border-radius: 50%;
+            background-color: grey;
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+</body>
+</html>
