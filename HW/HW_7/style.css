@@ -30,12 +30,12 @@ section {
     gap: 44px;
     font-family: "KoHo", sans-serif;
 }
-h2{
+.content h2{
     font-size: 45px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
-p {font-size: 25px;}
-button {
+.content p {font-size: 25px;}
+.content button {
     width: 409px;
     height: 76px;
     border-radius: 5px;
@@ -47,12 +47,13 @@ button {
 .central {
     font-size: 35px;
     width: 949px;
-    height: 183px;
 }
 #central {
     flex-direction: column;
     justify-content: space-evenly;
 }
-iframe {
-    height: 533px;
+.bottom {
+    width: 454px;
+    height: 700px;
+    background: rgba(83, 83, 83, 0.40);
 }
