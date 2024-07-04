@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "KoHo", sans-serif;
 }
 section {
     height: 100vh;
@@ -28,7 +29,6 @@ section {
     justify-content: center;
     align-items: center;
     gap: 44px;
-    font-family: "KoHo", sans-serif;
 }
 .content h2{
     font-size: 45px;
