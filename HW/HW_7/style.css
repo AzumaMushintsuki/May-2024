@@ -52,8 +52,18 @@ section {
     flex-direction: column;
     justify-content: space-evenly;
 }
+#bottom{justify-content: space-around}
 .bottom {
     width: 454px;
     height: 700px;
     background: rgba(83, 83, 83, 0.40);
+    font-size: 35px;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+}
+.bottom img{
+    width: 408px;
+    height: 214px;
+    margin: 23px;
 }
