@@ -3,9 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
+body, header, main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+body{
+    height: 100vh;
     background-color: #3c8080;
 }
+
+.main{
+    height: 50vh;
+    width: 40vw;
+    border-radius: 10px;
+    background-color: white;
+}
+header{height: 25%; background-color: #D8ECEF}
