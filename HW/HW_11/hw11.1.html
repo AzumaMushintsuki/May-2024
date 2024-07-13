@@ -9,18 +9,49 @@
             margin: 0;
             box-sizing: border-box;
         }
+        body{background: #907676;
+        }
+        section{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
         div{
-            height: 300px;
-            width: 1000px;
-            background-image: url("img/mars-11012-removebg.png") ;
+            height: 2000px;
+            width: 2000px;
+            background-image: url("img/mars-11012-removebg.png");
+            background-position: top center;
+            margin: 0 auto;
+            animation: rotate 15s ease-in-out infinite;
+
         }
 
+        img{
+            height: 80px;
+            margin: -30px auto;
+            display: block;
+            image-orientation: inherit;
+        }
+        h2{
+            font-size: 50px;
+            margin: 50px;
+        }
+        @keyframes rotate {
+            0%{
+                transform:  rotate(0);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
     </style>
 </head>
 <body>
 <header></header>
 <section><h2>Please wait. Searching is in progress</h2>
-    <img src="img/MSL-removebg-preview.png">
+    <img src="img/MSL-removebg-preview.png" alt="Curiosity">
     <div></div>
 </section>
 </body>
