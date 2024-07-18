@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, section{
+    width: 1110px;
+    margin: 0 auto;
+}
+body{background: #F7F6F4;}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 186px;
+    margin-top: 36px;
+}
+nav>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    width: 700px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+    font-family: "Taviraj",sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+nav>ul>li{
+    position: relative;
+}
+nav>ul>li:hover .dropbox{ display:flex}
+.dropbox{
+    position: absolute;
+    display: none;
+    padding: 15px 41px 23px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.70);
+    height: 108px;
+    width: 160px;
+    list-style-type: none;
+}
+.dropbox li {
+    margin-bottom: -10px;
+}
+
+.top {
+    height: 505px;
+    background: #F1DDC9;
+    margin-top: 90px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 56px;
+}
+.top div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 529px;
+}
+h1{
+    color: #333;
+    font-family: "Taviraj",sans-serif;
+    font-size: 60px;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: 1.2px;
+    margin-bottom: 32px;
+}
