@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*------header---------*/
 header, section{
     width: 1110px;
     margin: 0 auto;
@@ -27,7 +28,7 @@ nav>ul{
 a{
     text-decoration: none;
     color: #333;
-    font-family: "Taviraj",sans-serif;
+    font-family: "Taviraj",serif;
     font-size: 20px;
     letter-spacing: 0.4px;
 }
@@ -49,7 +50,7 @@ nav>ul>li:hover .dropbox{ display:flex}
 .dropbox li {
     margin-bottom: -10px;
 }
-
+/*------top-section-----*/
 .top {
     height: 505px;
     background: #F1DDC9;
@@ -68,9 +69,99 @@ nav>ul>li:hover .dropbox{ display:flex}
 }
 h1{
     color: #333;
-    font-family: "Taviraj",sans-serif;
+    font-family: "Taviraj",serif;
     font-size: 60px;
     line-height: 80px; /* 133.333% */
     letter-spacing: 1.2px;
     margin-bottom: 32px;
+}
+.top p{
+    width: 530px;
+    color: #333;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    margin-bottom: 80px;
+    letter-spacing: 0.48px;
+}
+.top button{
+    width: 208px;
+    height: 62px;
+    background: #D84727;
+    color: #FFF;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    letter-spacing: 0.4px
+}
+/*-------center-----*/
+.center h3{
+    color: #333;
+    font-family: "Taviraj",serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    margin: 84px 0;
+}
+.center p{
+    width: 207px;
+    color: #333;
+    font-family: "Taviraj",serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+}
+.center>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    position: relative;
+    width: 255px;
+    height: 278px;
+    background: #FFF;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.04);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 34px;
+}
+.card img{
+    position: absolute;
+    top: -40px;
+}
+/*------bottom-----*/
+.bottom h3{
+    color: #333;
+    font-family: "Taviraj",serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    margin: 132px 0 44px 0;
+}
+.one{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 180px;
+}
+.one div{
+    width: 350px;
+}
+.one p:first-child{
+    color: #777;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+    margin-bottom: 16px;
+}
+.one p{
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 36px;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.72px;
 }
